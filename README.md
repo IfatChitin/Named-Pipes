@@ -1,5 +1,7 @@
 # Named-Pipes
-Inter-process communication library using named pipes
+Inter-process communication library using named pipes.
+
+Full details can be found here: http://www.codeproject.com/Articles/864679/Creating-a-Server-Using-Named-Pipes
 
 In this repository I show how I created a server and client implementation using named pipes in C# .Net 4.
 I used NamedPipeServerStream and NamedPipeClientStream, but soon realized that the name "server" was confusing. NamedPipeServerStream could only handle one client at a time (see Named Pipe Instances topic in MSDN), but I needed a server that could handle multiple clients requests.
