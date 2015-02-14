@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServerUsingNamedPipes", "ClientServerUsingNamedPipes\ClientServerUsingNamedPipes.csproj", "{CFF3F2F9-285E-487C-9C77-E335FCDDFAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServerUsingNamedPipesIntegrationTests", "ClientServerUsingNamedPipesIntegrationTests\ClientServerUsingNamedPipesIntegrationTests.csproj", "{230F34C1-C4E7-452C-8DBC-8FF80627D934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF3F2F9-285E-487C-9C77-E335FCDDFAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF3F2F9-285E-487C-9C77-E335FCDDFAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF3F2F9-285E-487C-9C77-E335FCDDFAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF3F2F9-285E-487C-9C77-E335FCDDFAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230F34C1-C4E7-452C-8DBC-8FF80627D934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230F34C1-C4E7-452C-8DBC-8FF80627D934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230F34C1-C4E7-452C-8DBC-8FF80627D934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230F34C1-C4E7-452C-8DBC-8FF80627D934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
